@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Characters | GameSage</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../images/logo/logo.png">
+</head>
+<body>
+    <div class="container">
+
+        <div id="genshin-bg"></div>
+        <div class="left">
+
+            <div class="logo">
+                <a href="home.html"><img src="../images/logo/logo-with-text.png" alt="Logo"></a>
+            </div>
+
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="home.html"><img src="../images/icons/home.svg" alt="Home Icon"><div class="nav-text">Home</div></a></li>
+                        <li><a href="#" id="current-page"><img src="../images/icons/users.svg" alt="Character Icon"><div class="nav-text">Characters</div></a></li>
+                        <li><a href="tier-list.html"><img src="../images/icons/tier-list.svg" alt="Tier Lists Icon"><div class="nav-text">Tier Lists</div></a></li>
+                    </ul>
+                        <hr>
+                    <ul>
+                        <li><a href="work-in-progress.html"><img src="../images/icons/book.svg" alt="Guides Icon"><div class="nav-text">Guides</div></a></li>
+                    </ul>
+                        <hr>
+                    <ul>
+                        <li><a href="https://patreon.com" id="highlight-nav"><img src="../images/icons/smile-heart.svg" alt="Support Us Icon"><div class="nav-text">Support Us!</div></a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+
+        <div class="right">
+            <div class="top-nav">
+
+                <div class="menu-button">
+                    <script src="../script/menu-button.js"></script>
+                    <button id="menu-toggle">
+                        <img src="../images/icons/logout.svg" alt="Collapse Menu" id="collapse-menu">
+                        <img src="../images/icons/login.svg" alt="Expand Menu" id="expand-menu">
+                    </button>
+                </div>
+
+                <div class="mobile-logo">
+                    <a href="home.html">
+                        <img src="../images/logo/logo.png" alt="Mobile logo">
+                    </a>
+                </div>
+
+                <div class="socials">
+                    <div class="socials-container">
+                        <a href="https://discord.gg">
+                            <img src="../images/icons/social/discord.svg" alt="Discord Logo">
+                        </a>
+                    </div>
+                    <div class="socials-container">
+                        <a href="https://instagram.com">
+                            <img src="../images/icons/social/instagram.svg" alt="Instagram Logo">
+                        </a>
+                    </div>
+                    <div class="socials-container">
+                        <a href="https://x.com">
+                            <img src="../images/icons/social/x.svg" alt="X(formerly Twitter) Logo">
+                        </a>
+                    </div>
+                    <div class="socials-container">
+                        <a href="https://youtube.com">
+                            <img src="../images/icons/social/youtube.svg" alt="YouTube Logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <header>
+                <h1>Genshin Impact Characters</h1>
+                <p>List of available characters in Genshin impact. You will be able to view their best builds and teams here.</p>
+            </header>
+            
+            <div class="horizontal-ad">
+                <aside>
+                    <img src="../images/ads/horizontal-ad.png" alt="Horizontal Ad">
+                </aside>
+            </div>
+
+            <main>
+
+                <section>
+                    <h2>Characters</h2>
+                    <br>
+                    <input type="text" id="search-input" placeholder="Search by name">
+                    <div class="promoted-content" id="character-grid">
+                        <article id="furina" data-name="furina">
+                            <h3>Furina</h3>
+                                <a href="character-builds/build-furina.html" class="read-more">Read More</a>
+                        </article>
+                        <article id="baizhu" data-name="baizhu">
+                            <h3>Baizhu</h3>
+                                <a href="character-builds/build-baizhu.html" class="read-more">Read More</a>
+                        </article>
+                        <article id="charlotte" data-name="charlotte">
+                            <h3>Charlotte</h3>
+                                <a href="work-in-progress.html" class="read-more">Read More</a>
+                        </article>
+                        <article id="neuvillette" data-name="neuvillette">
+                            <h3>Neuvillette</h3>
+                                <a href="work-in-progress.html" class="read-more">Read More</a>
+                        </article>
+                    </div>
+                    <script src="../script/search.js"></script>
+                </section>
+
+            </main>
+
+                <footer>
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <p>Copyright &copy; 2023 GameSage.gg</p>
+                </footer>
+
+        </div>
+        
+    </div>
+</body>
+</html>
