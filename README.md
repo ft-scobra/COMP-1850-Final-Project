@@ -1,4 +1,4 @@
-This is the first ever website project. I have never learnt CSS and JavaScript before this. What little HTML that I knew was from middle school computer science class. All the HTML, CSS and Javascript that I learnt later was at BCIT's COMP-1850.
+This is my first ever website project. I have never learnt CSS and JavaScript before this. What little HTML that I knew was from middle school computer science class. All the HTML, CSS and Javascript that I learnt later was at BCIT's COMP-1850.
 
 It took me several hours just to get something simple done in CSS, but over time, I got more and more used to it.
 
